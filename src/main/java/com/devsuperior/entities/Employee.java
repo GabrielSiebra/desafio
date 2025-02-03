@@ -6,6 +6,10 @@ public class Employee {
     private Double basic;
     private Double discount;
 
+    public Employee(){
+
+    }
+
     public Employee(Integer code, Double basic, Double discount) {
         this.code = code;
         this.basic = basic;

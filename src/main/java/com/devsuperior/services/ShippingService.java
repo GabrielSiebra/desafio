@@ -1,7 +1,8 @@
 package com.devsuperior.services;
 import com.devsuperior.entities.Employee;
+import org.springframework.stereotype.Service;
 
-
+@Service
 public class ShippingService {
     public double shipment(Employee order){
         if(order.getBasic() < 100.0 ){
